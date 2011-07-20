@@ -58,13 +58,12 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1.5;
   font-family: "Trebuchet MS";
-  color: #555555;
+  color: white;
   font-size: 75%;
-  padding: 10px;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-weight: normal;
-  color: #555555;
+  color: white;
 }
 body h1 img, body h2 img, body h3 img, body h4 img, body h5 img, body h6 img {
   margin: 0;
@@ -114,19 +113,19 @@ body p .right {
 }
 body a {
   text-decoration: underline;
-  color: #db2e34;
+  color: yellow;
 }
 body a:visited {
-  color: #db2e34;
+  color: yellow;
 }
 body a:focus {
-  color: #db2e34;
+  color: yellow;
 }
 body a:hover {
-  color: #db2e34;
+  color: yellow;
 }
 body a:active {
-  color: #db2e34;
+  color: yellow;
 }
 body blockquote {
   margin: 1.5em;
@@ -206,10 +205,10 @@ body caption {
   background: #eeeeee;
 }
 body .quiet {
-  color: #888888;
+  color: white;
 }
 body .loud {
-  color: #333333;
+  color: #dddddd;
 }
 body .clear {
   clear: both;
@@ -370,4 +369,178 @@ body form.inline p {
 }
 * html #content {
   overflow-x: hidden;
+}
+
+#background_header {
+  height: 110px;
+  background: yellow;
+}
+
+#header {
+  padding-top: 10px;
+  height: 110px;
+  background: yellow;
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+  font-style: oblique;
+}
+
+#entry_input {
+  font-size: 20px;
+  border: solid 2px black;
+  height: 35px;
+  color: black;
+  padding-left: 10px;
+  margin-right: 30px;
+  width: 320px;
+  float: left;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.search_content {
+  margin-top: 20px;
+}
+
+.logo {
+  height: 36px;
+  width: 36px;
+  background: url('../images/logo.png?1311162521');
+  float: left;
+  margin-right: 5px;
+}
+
+.button_search, .button_list, .button_maps {
+  height: 30px;
+  width: 100px;
+  background: black;
+  float: left;
+  padding-top: 5px;
+  margin-right: 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+.button_search a, .button_list a, .button_maps a {
+  color: yellow;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 23px;
+  margin-bottom: 10px;
+}
+
+.button_list {
+  width: 40px;
+  background: black url('../images/list.png?1311165125');
+}
+
+.button_maps {
+  width: 40px;
+  background: black url('../images/maps.png?1311165109');
+}
+
+.ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 750px;
+}
+.ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.ul li:first-child, .ul li.first {
+  padding-left: 0;
+}
+.ul li:last-child {
+  padding-right: 0;
+}
+.ul li.last {
+  padding-right: 0;
+}
+* html .ul {
+  overflow-x: hidden;
+}
+
+#results .companies {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 630px;
+}
+* html #results .companies {
+  overflow-x: hidden;
+}
+#results .adv {
+  margin-top: 20px;
+  float: right;
+  background: green;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 310px;
+}
+* html #results .adv {
+  overflow-x: hidden;
+}
+
+.box_companies {
+  margin-top: 20px;
+  padding: 10px;
+  width: 590px;
+  height: 255px;
+  background: black;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+.box_companies h1 {
+  color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+}
+.box_companies a {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.left_company {
+  width: 150px;
+  margin-right: 20px;
+}
+.left_company .thumb_company {
+  height: 150px;
+  width: 150px;
+  background: url('../images/empresa.png?1311169007');
+  float: left;
+  margin-right: 20px;
+}
+.left_company .atributes_company {
+  float: left;
+  height: 100px;
+  width: 150px;
+  margin-right: 20px;
 }

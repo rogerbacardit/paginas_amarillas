@@ -3,6 +3,11 @@
 @import blueprint
 @import blueprint/scaffolding
 @import compass/css3
+@import "compass/css3/transform"
+@import buttons
+@import "compass/typography/lists/horizontal-list"
+@import "compass/css3/border-radius"
+@import "compass/utilities"
 
 +global-reset
 
@@ -14,10 +19,109 @@ body
   // Remove the scaffolding when you're ready to start doing visual design.
   // Or leave it in if you're happy with how blueprint looks out-of-the-box
   +blueprint-scaffolding
-  padding: 10px
 
 #container
   +container
+
 #content
   +column($blueprint-grid-columns)
+#background_header
+  height: 110px
+  background: yellow
+#header
+  padding-top: 10px
+  height: 110px
+  background: #FFFF00
+  font-size: 26px
+  font-weight: bold
+  color: black
+  font-style: oblique
 
+#entry_input
+  font-size: 20px
+  border: solid 2px black
+  height: 35px
+  color: black
+  padding-left: 10px
+  margin-right: 30px
+  width: 320px
+  float: left
+  +border-radius(3px)
+
+.search_content
+  margin-top: 20px
+
+.logo
+  height: 36px
+  width: 36px
+  background: image-url("logo.png")
+  float: left
+  margin-right: 5px
+
+.button_search, .button_list, .button_maps
+  height: 30px
+  width: 100px
+  background: black
+  float: left
+  padding-top: 5px
+  margin-right: 10px
+  +border-radius(3px)
+  a
+    color: yellow
+    font-size: 17px
+    font-weight: bold
+    text-decoration: none
+    margin-left: 23px
+    margin-bottom: 10px
+
+.button_list
+  width: 40px
+  background: black image-url("list.png")
+
+.button_maps
+  width: 40px
+  background: black image-url("maps.png")
+
+
+.ul
+  +horizontal-list
+  +column (19, true)
+
+#results
+  .companies
+    +column (16)
+  .adv
+    margin-top: 20px
+    float: right
+    background: green
+    +column (8, true)
+
+.box_companies
+  margin-top: 20px
+  padding: 10px
+  width: 590px
+  height: 255px
+  background: black
+  +border-radius(3px)
+  h1
+    color: yellow
+    font-size: 20px
+    font-weight: bold
+  a
+    margin-bottom: 10px
+    text-decoration: none
+
+.left_company
+  width: 150px
+  margin-right: 20px
+  .thumb_company
+    height: 150px
+    width: 150px
+    background: image-url("empresa.png")
+    float: left
+    margin-right: 20px
+  .atributes_company
+    float: left
+    height: 100px
+    width: 150px
+    margin-right: 20px

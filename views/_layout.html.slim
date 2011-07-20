@@ -4,6 +4,8 @@ html
     meta charset='utf-8'
     link rel="stylesheet" href="/stylesheets/application.css"
   body
-    #container
-      #content
-        == yield
+  #container
+    #header
+      == render partial: 'header'
+    #results
+      == render partial: 'results'
