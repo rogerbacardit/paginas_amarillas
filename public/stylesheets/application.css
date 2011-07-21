@@ -1,3 +1,223 @@
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+ul li:first-child, ul li.first {
+  padding-left: 0;
+}
+ul li:last-child {
+  padding-right: 0;
+}
+ul li.last {
+  padding-right: 0;
+}
+ul .myButton {
+  height: 22px;
+  margin-right: 100px;
+  -moz-box-shadow: inset 0px 1px 0px 0px #666466;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #666466;
+  box-shadow: inset 0px 1px 0px 0px #666466;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #404040), color-stop(1, #2b2b2b));
+  background: -moz-linear-gradient(center top, #404040 5%, #2b2b2b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#404040', endColorstr='#2b2b2b');
+  background-color: #404040;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #4f4f4f;
+  display: inline-block;
+  color: white;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-shadow: 1px 1px 0px black;
+}
+ul .myButton a {
+  text-decoration: none;
+}
+ul .myButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2b2b2b), color-stop(1, #404040));
+  background: -moz-linear-gradient(center top, #2b2b2b 5%, #404040 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b2b2b', endColorstr='#404040');
+  background-color: #2b2b2b;
+}
+ul .myButton:active {
+  position: relative;
+  top: 1px;
+}
+ul .button_maps, ul .button_list {
+  height: 34px;
+  width: 50px;
+  margin-bottom: 4px;
+  margin-left: 5px;
+  -moz-box-shadow: inset 0px 1px 0px 0px #666466;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #666466;
+  box-shadow: inset 0px 1px 0px 0px #666466;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #404040), color-stop(1, #2b2b2b));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#404040', endColorstr='#2b2b2b');
+  background-color: #404040;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radiuj: 3px;
+  border: 1px solid #4f4f4f;
+  color: white;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px black;
+}
+ul .button_maps a, ul .button_list a {
+  text-decoration: none;
+}
+ul .button_maps:hover, ul .button_list:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2b2b2b), color-stop(1, #404040));
+  background: -moz-linear-gradient(center top, #2b2b2b 5%, #404040 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b2b2b', endColorstr='#404040');
+  background-color: #2b2b2b;
+}
+ul .button_maps:active, ul .button_list:active {
+  position: relative;
+  top: 1px;
+}
+
+.img_maps {
+  height: 50px;
+  width: 50px;
+  margin-left: 4px;
+  background: url('../images/maps.png?1311165109');
+}
+
+.img_list {
+  height: 50px;
+  width: 50px;
+  margin-left: 4px;
+  background: url('../images/list.png?1311165125');
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+ul li:first-child, ul li.first {
+  padding-left: 0;
+}
+ul li:last-child {
+  padding-right: 0;
+}
+ul li.last {
+  padding-right: 0;
+}
+ul .myButton {
+  height: 22px;
+  margin-right: 100px;
+  -moz-box-shadow: inset 0px 1px 0px 0px #666466;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #666466;
+  box-shadow: inset 0px 1px 0px 0px #666466;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #404040), color-stop(1, #2b2b2b));
+  background: -moz-linear-gradient(center top, #404040 5%, #2b2b2b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#404040', endColorstr='#2b2b2b');
+  background-color: #404040;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #4f4f4f;
+  display: inline-block;
+  color: white;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-shadow: 1px 1px 0px black;
+}
+ul .myButton a {
+  text-decoration: none;
+}
+ul .myButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2b2b2b), color-stop(1, #404040));
+  background: -moz-linear-gradient(center top, #2b2b2b 5%, #404040 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b2b2b', endColorstr='#404040');
+  background-color: #2b2b2b;
+}
+ul .myButton:active {
+  position: relative;
+  top: 1px;
+}
+ul .button_maps, ul .button_list {
+  height: 34px;
+  width: 50px;
+  margin-bottom: 4px;
+  margin-left: 5px;
+  -moz-box-shadow: inset 0px 1px 0px 0px #666466;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #666466;
+  box-shadow: inset 0px 1px 0px 0px #666466;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #404040), color-stop(1, #2b2b2b));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#404040', endColorstr='#2b2b2b');
+  background-color: #404040;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radiuj: 3px;
+  border: 1px solid #4f4f4f;
+  color: white;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px black;
+}
+ul .button_maps a, ul .button_list a {
+  text-decoration: none;
+}
+ul .button_maps:hover, ul .button_list:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2b2b2b), color-stop(1, #404040));
+  background: -moz-linear-gradient(center top, #2b2b2b 5%, #404040 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b2b2b', endColorstr='#404040');
+  background-color: #2b2b2b;
+}
+ul .button_maps:active, ul .button_list:active {
+  position: relative;
+  top: 1px;
+}
+
+.img_maps {
+  height: 50px;
+  width: 50px;
+  margin-left: 4px;
+  background: url('../images/maps.png?1311165109');
+}
+
+.img_list {
+  height: 50px;
+  width: 50px;
+  margin-left: 4px;
+  background: url('../images/list.png?1311165125');
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -353,6 +573,18 @@ body form.inline {
 body form.inline p {
   margin-bottom: 0;
 }
+body ul {
+  width: 900px;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+* html body ul {
+  overflow-x: hidden;
+}
 
 #container {
   width: 950px;
@@ -372,27 +604,31 @@ body form.inline p {
 }
 
 #background_header {
+  padding: 0px;
   height: 110px;
   background: yellow;
 }
 
 #header {
-  padding-top: 10px;
-  height: 110px;
+  padding-top: 5px;
+  padding-left: 20px;
+  height: 105px;
   background: yellow;
   font-size: 26px;
   font-weight: bold;
   color: black;
   font-style: oblique;
+  border-bottom: solid 1px #cccccc;
 }
 
 #entry_input {
   font-size: 20px;
-  border: solid 2px black;
+  border: solid 1px black;
   height: 35px;
   color: black;
   padding-left: 10px;
-  margin-right: 30px;
+  margin-left: 30px;
+  margin-right: 10px;
   width: 320px;
   float: left;
   -moz-border-radius: 3px;
@@ -413,73 +649,6 @@ body form.inline p {
   background: url('../images/logo.png?1311162521');
   float: left;
   margin-right: 5px;
-}
-
-.button_search, .button_list, .button_maps {
-  height: 30px;
-  width: 100px;
-  background: black;
-  float: left;
-  padding-top: 5px;
-  margin-right: 10px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
-}
-.button_search a, .button_list a, .button_maps a {
-  color: yellow;
-  font-size: 17px;
-  font-weight: bold;
-  text-decoration: none;
-  margin-left: 23px;
-  margin-bottom: 10px;
-}
-
-.button_list {
-  width: 40px;
-  background: black url('../images/list.png?1311165125');
-}
-
-.button_maps {
-  width: 40px;
-  background: black url('../images/maps.png?1311165109');
-}
-
-.ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1;
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 750px;
-}
-.ul li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0px;
-  white-space: nowrap;
-  display: inline;
-  float: left;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-.ul li:first-child, .ul li.first {
-  padding-left: 0;
-}
-.ul li:last-child {
-  padding-right: 0;
-}
-.ul li.last {
-  padding-right: 0;
-}
-* html .ul {
-  overflow-x: hidden;
 }
 
 #results .companies {
@@ -543,4 +712,16 @@ body form.inline p {
   height: 100px;
   width: 150px;
   margin-right: 20px;
+}
+
+.empresaula ul {
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 100%;
+  height: 30px;
+  background: black;
+  font-weight: bold;
+}
+.empresaula ul li {
+  margin-left: 20px;
 }

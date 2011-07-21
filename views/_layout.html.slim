@@ -4,8 +4,10 @@ html
     meta charset='utf-8'
     link rel="stylesheet" href="/stylesheets/application.css"
   body
+  #empresaula_header
+    == render partial: 'header_empresaula'
+  #header
+    == render partial: 'header'
   #container
-    #header
-      == render partial: 'header'
     #results
       == render partial: 'results'
