@@ -232,6 +232,25 @@ ul .button_maps:active, ul .button_list:active {
   background: url('../images/full.png?1312273539');
 }
 
+.maps {
+  height: 100%;
+  width: 30%;
+  background: red;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  border-right: solid black 1px;
+  position: relative;
+}
+
+.list {
+  height: 100%;
+  width: 70%;
+  background: green;
+  float: right;
+  position: relative;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -596,6 +615,8 @@ body ul {
   width: 950px;
   padding-left: 0px;
   padding-right: 0px;
+  margin-bottom: 0px;
+  padding-top: 17px;
 }
 * html body ul {
   overflow-x: hidden;
@@ -616,10 +637,13 @@ body ul {
   font-weight: bold;
   color: black;
   font-style: oblique;
-  border-bottom: solid 1px #cccccc;
+  border-bottom: solid 1px black;
 }
 #header ul {
-  width: 80%;
+  width: 750px;
+}
+#header .search_content {
+  overflow: auto;
 }
 #header .search_content ul.views {
   width: 200px;
@@ -634,7 +658,8 @@ body ul {
   padding-left: 10px;
   margin-left: 30px;
   margin-right: 10px;
-  width: 520px;
+  width: 90%;
+  min-width: 100px;
   float: left;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -650,6 +675,14 @@ body ul {
   background: url('../images/logo.png?1311162521');
   float: left;
   margin-right: 10px;
+}
+
+#container {
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+  top: 138px;
+  bottom: 0;
 }
 
 #results {
@@ -728,9 +761,15 @@ body ul {
   margin-right: 20px;
 }
 
+#empresaula_header {
+  overflow: auto;
+}
+
+.empresaula {
+  overflow: auto;
+}
 .empresaula ul {
   padding-top: 7px;
-  padding-left: 20px;
   width: 100%;
   height: 25px;
   background: #598ab7;
