@@ -21,6 +21,7 @@ body
   // Remove the scaffolding when you're ready to start doing visual design.
   // Or leave it in if you're happy with how blueprint looks out-of-the-box
   +blueprint-scaffolding
+  font-family: "Trebuchet MS"
   ul
     width: 900px
     +column(24, true)
@@ -28,66 +29,69 @@ body
     padding-right: 0px
 
 
-#container
-  +container
 
-#content
-  +column($blueprint-grid-columns)
 #background_header
   padding: 0px
   height: 110px
   background: yellow
 #header
   padding-top: 5px
-  padding-left: 20px
-  height: 105px
+  padding-left: 30px
+  height: 100px
   background: #FFFF00
   font-size: 26px
   font-weight: bold
   color: black
   font-style: oblique
   border-bottom: solid 1px #cccccc
+  ul
+    width: 80%
+  .search_content
+    ul.views
+      width: 200px
+      float: right
 
 #entry_input
   font-size: 20px
-  border: solid 1px black
+  border: solid 1px grey
   height: 35px
   color: black
   padding-left: 10px
   margin-left: 30px
   margin-right: 10px
-  width: 320px
+  width: 520px
   float: left
   +border-radius(3px)
 
-.search_content
-  margin-top: 20px
 
 .logo
   height: 36px
   width: 36px
   background: image-url("logo.png")
   float: left
-  margin-right: 5px
+  margin-right: 10px
 
 #results
   .companies
-    +column (16)
-  .adv
-    margin-top: 20px
-    float: right
-    background: green
-    +column (8, true)
+  +column (16)
+  margin-right: 100px
+.adv
+  float: right
+  background: green
+  float: right
+  +border-radius(3px)
+  +column (8, true)
 
 .box_companies
-  margin-top: 20px
+  margin-left: 20px
   padding: 10px
   width: 590px
   height: 255px
-  background: black
+  border: solid 1px #CCCCCC
+  +linear-gradient(color-stops(#F2F2F2, #E6E6E6))
   +border-radius(3px)
   h1
-    color: yellow
+    color: black
     font-size: 20px
     font-weight: bold
   a
@@ -111,12 +115,14 @@ body
 
 .empresaula
   ul
-    padding-top: 10px
+    padding-top: 7px
     padding-left: 20px
     width: 100%
-    height: 30px
-    background: black
+    height: 25px
+    background: #598AB7
     font-weight: bold
     li
       margin-left: 20px
-
+      color: white
+      text-shadow: #3C6287 0px -1px 0px
+      font-family: "Trebuchet MS"
