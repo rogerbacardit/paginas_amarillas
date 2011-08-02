@@ -9,6 +9,7 @@
 @import "compass/css3/border-radius"
 @import "compass/utilities"
 @import "compass/css3/gradient"
+@import "compass/css3/box-shadow"
 @import _buttons
 @import _results_maps
 
@@ -47,6 +48,7 @@ body
   color: black
   font-style: oblique
   border-bottom: solid 1px black
+  z-index: 6
   ul
     width: 750px
   .search_content
@@ -67,7 +69,6 @@ body
   min-width: 100px
   float: left
   +border-radius(3px)
-
 
 .logo
   height: 36px
@@ -140,4 +141,3 @@ body
       color: white
       text-shadow: #3C6287 0px -1px 0px
       font-family: "Trebuchet MS"
-
