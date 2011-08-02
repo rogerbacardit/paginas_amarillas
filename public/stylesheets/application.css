@@ -239,14 +239,14 @@ ul .button_maps:active, ul .button_list:active {
   float: left;
   margin: 0px;
   padding: 0px;
-  border-right: solid black 1px;
+  border-right: solid grey 1px;
   position: relative;
   z-index: 5;
 }
 
 .maps {
   height: 100%;
-  background: green;
+  background: #cccccc;
   float: right;
   margin-right: 0px;
   margin-left: 0px;
@@ -264,6 +264,51 @@ ul .button_maps:active, ul .button_list:active {
   width: 100%;
   height: 100%;
   margin: 0px;
+}
+
+.results_odd, .results_even {
+  height: 110px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cccccc;
+}
+.results_odd .logo_result, .results_even .logo_result {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background: red;
+  float: left;
+  -moz-box-shadow: inset 0px 0px 10px grey;
+  -webkit-box-shadow: inset 0px 0px 10px grey;
+  -o-box-shadow: inset 0px 0px 10px grey;
+  box-shadow: inset 0px 0px 10px grey;
+}
+.results_odd h3, .results_even h3 {
+  margin-left: 20px;
+  font-weight: bold;
+}
+.results_odd .business-info, .results_even .business-info {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.results_odd .business-info .street, .results_odd .business-info .location, .results_odd .business-info .telephone, .results_even .business-info .street, .results_even .business-info .location, .results_even .business-info .telephone {
+  display: block;
+}
+.results_odd p, .results_even p {
+  font-weight: normal;
+  width: 200px;
+  margin-right: 0px;
+}
+
+.results_odd {
+  background: #f2f2f2;
+}
+
+.results_even {
+  background: #f3f3f3;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -646,13 +691,13 @@ body ul {
 #header {
   padding-top: 5px;
   padding-left: 30px;
-  height: 100px;
+  height: 80px;
   background: yellow;
   font-size: 26px;
   font-weight: bold;
   color: black;
   font-style: oblique;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px grey;
   z-index: 6;
 }
 #header ul {
@@ -697,7 +742,7 @@ body ul {
   overflow: auto;
   position: absolute;
   width: 100%;
-  top: 138px;
+  top: 118px;
   bottom: 0;
 }
 
