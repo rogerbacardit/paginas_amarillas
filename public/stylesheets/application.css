@@ -232,7 +232,7 @@ ul .button_maps:active, ul .button_list:active {
   background: url('../images/full.png?1312273539');
 }
 
-.maps {
+.list {
   height: 100%;
   width: 379px;
   background: #cccccc;
@@ -244,7 +244,7 @@ ul .button_maps:active, ul .button_list:active {
   z-index: 5;
 }
 
-.list {
+.maps {
   height: 100%;
   background: green;
   float: right;
