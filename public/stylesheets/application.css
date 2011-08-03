@@ -239,9 +239,10 @@ ul .button_maps:active, ul .button_list:active {
   float: left;
   margin: 0px;
   padding: 0px;
-  border-right: solid grey 1px;
+  border-right: solid #bfbfbd 1px;
   position: relative;
   z-index: 5;
+  overflow-y: scroll;
 }
 
 .maps {
@@ -266,14 +267,14 @@ ul .button_maps:active, ul .button_list:active {
   margin: 0px;
 }
 
-.results_odd, .results_even {
+.results_odd, .results_even, .active {
   height: 110px;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #cccccc;
 }
-.results_odd .logo_result, .results_even .logo_result {
+.results_odd .logo_result, .results_even .logo_result, .active .logo_result {
   width: 100px;
   height: 100px;
   margin-left: 20px;
@@ -281,23 +282,25 @@ ul .button_maps:active, ul .button_list:active {
   margin-bottom: 20px;
   background: red;
   float: left;
-  -moz-box-shadow: inset 0px 0px 10px grey;
-  -webkit-box-shadow: inset 0px 0px 10px grey;
-  -o-box-shadow: inset 0px 0px 10px grey;
-  box-shadow: inset 0px 0px 10px grey;
+  border: #980000 solid 1px;
+  -moz-box-shadow: inset 0px 0px 10px #980000;
+  -webkit-box-shadow: inset 0px 0px 10px #980000;
+  -o-box-shadow: inset 0px 0px 10px #980000;
+  box-shadow: inset 0px 0px 10px #980000;
 }
-.results_odd h3, .results_even h3 {
+.results_odd h3, .results_even h3, .active h3 {
   margin-left: 20px;
   font-weight: bold;
+  color: grey;
 }
-.results_odd .business-info, .results_even .business-info {
+.results_odd .business-info, .results_even .business-info, .active .business-info {
   margin-left: 20px;
   margin-right: 20px;
 }
-.results_odd .business-info .street, .results_odd .business-info .location, .results_odd .business-info .telephone, .results_even .business-info .street, .results_even .business-info .location, .results_even .business-info .telephone {
+.results_odd .business-info .street, .results_odd .business-info .location, .results_odd .business-info .telephone, .results_even .business-info .street, .results_even .business-info .location, .results_even .business-info .telephone, .active .business-info .street, .active .business-info .location, .active .business-info .telephone {
   display: block;
 }
-.results_odd p, .results_even p {
+.results_odd p, .results_even p, .active p {
   font-weight: normal;
   width: 200px;
   margin-right: 0px;
@@ -305,10 +308,26 @@ ul .button_maps:active, ul .button_list:active {
 
 .results_odd {
   background: #f2f2f2;
+  -moz-box-shadow: inset 0px 0px 5px white;
+  -webkit-box-shadow: inset 0px 0px 5px white;
+  -o-box-shadow: inset 0px 0px 5px white;
+  box-shadow: inset 0px 0px 5px white;
+}
+
+.active {
+  background: #cccccc;
+  -moz-box-shadow: inset 0px 0px 8px grey;
+  -webkit-box-shadow: inset 0px 0px 8px grey;
+  -o-box-shadow: inset 0px 0px 8px grey;
+  box-shadow: inset 0px 0px 8px grey;
 }
 
 .results_even {
-  background: #f3f3f3;
+  background: #ebebeb;
+  -moz-box-shadow: inset 0px 0px 5px white;
+  -webkit-box-shadow: inset 0px 0px 5px white;
+  -o-box-shadow: inset 0px 0px 5px white;
+  box-shadow: inset 0px 0px 5px white;
 }
 
 html, body, div, span, applet, object, iframe,
