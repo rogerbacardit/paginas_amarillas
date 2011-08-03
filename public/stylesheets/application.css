@@ -752,11 +752,11 @@ input[type=search] {
 }
 
 #results {
+  margin-right: 100px;
   display: inline;
   float: left;
   margin-right: 10px;
   width: 630px;
-  margin-right: 100px;
 }
 * html #results {
   overflow-x: hidden;
