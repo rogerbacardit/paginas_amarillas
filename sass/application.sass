@@ -30,8 +30,12 @@ body
     padding-left: 0px
     padding-right: 0px
     margin-bottom: 0px
-    padding-top: 17px
-
+  h1
+    font-size: 26px
+    font-weight: bold
+    margin-left: 0px
+    float: left
+    +inline-block
 
 
 #background_header
@@ -39,7 +43,7 @@ body
   height: 110px
   background: yellow
 #header
-  padding-top: 5px
+  padding-top: 20px
   padding-left: 30px
   height: 80px
   background: #FFFF00
@@ -47,28 +51,30 @@ body
   font-weight: bold
   color: black
   font-style: oblique
-  border-bottom: solid 1px grey
+  border-bottom: solid 1px #cccccc
   z-index: 6
   ul
-    width: 750px
+    width: 200px
+    float: right
+    +inline-block
   .search_content
     overflow: auto
+    width: 50%
+    float: left
+    min-width: 540px
+    +inline-block
     ul.views
       width: 200px
-      float: right
+      +inline-block
 
-#entry_input
-  font-size: 20px
-  border: solid 1px grey
-  height: 35px
-  color: black
-  padding-left: 10px
-  margin-left: 30px
-  margin-right: 10px
-  width: 90%
-  min-width: 100px
+input[type=search]
+  width: 250px
+  color: grey
+  size: 16px
+  font-size: 26px
+  margin-left: 7%
   float: left
-  +border-radius(3px)
+  +inline-block
 
 .logo
   height: 36px

@@ -291,7 +291,7 @@ ul .button_maps:active, ul .button_list:active {
 .results_odd h3, .results_even h3, .active h3 {
   margin-left: 20px;
   font-weight: bold;
-  color: grey;
+  color: #4d4d4d;
 }
 .results_odd .business-info, .results_even .business-info, .active .business-info {
   margin-left: 20px;
@@ -300,9 +300,10 @@ ul .button_maps:active, ul .button_list:active {
 .results_odd .business-info .street, .results_odd .business-info .location, .results_odd .business-info .telephone, .results_even .business-info .street, .results_even .business-info .location, .results_even .business-info .telephone, .active .business-info .street, .active .business-info .location, .active .business-info .telephone {
   display: block;
 }
-.results_odd p, .results_even p, .active p {
-  font-weight: normal;
-  width: 200px;
+.results_odd span, .results_even span, .active span {
+  font-weight: bold;
+  color: #4d4d4d;
+  width: 300px;
   margin-right: 0px;
 }
 
@@ -315,11 +316,11 @@ ul .button_maps:active, ul .button_list:active {
 }
 
 .active {
-  background: #cccccc;
-  -moz-box-shadow: inset 0px 0px 8px grey;
-  -webkit-box-shadow: inset 0px 0px 8px grey;
-  -o-box-shadow: inset 0px 0px 8px grey;
-  box-shadow: inset 0px 0px 8px grey;
+  background: #ebebeb;
+  -moz-box-shadow: inset 0px 0px 8px #d2d2d2;
+  -webkit-box-shadow: inset 0px 0px 8px #d2d2d2;
+  -o-box-shadow: inset 0px 0px 8px #d2d2d2;
+  box-shadow: inset 0px 0px 8px #d2d2d2;
 }
 
 .results_even {
@@ -695,10 +696,23 @@ body ul {
   padding-left: 0px;
   padding-right: 0px;
   margin-bottom: 0px;
-  padding-top: 17px;
 }
 * html body ul {
   overflow-x: hidden;
+}
+body h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 0px;
+  float: left;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+}
+body h1 {
+  *display: inline;
 }
 
 #background_header {
@@ -708,7 +722,7 @@ body ul {
 }
 
 #header {
-  padding-top: 5px;
+  padding-top: 20px;
   padding-left: 30px;
   height: 80px;
   background: yellow;
@@ -716,37 +730,62 @@ body ul {
   font-weight: bold;
   color: black;
   font-style: oblique;
-  border-bottom: solid 1px grey;
+  border-bottom: solid 1px #cccccc;
   z-index: 6;
 }
 #header ul {
-  width: 750px;
+  width: 200px;
+  float: right;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+}
+#header ul {
+  *display: inline;
 }
 #header .search_content {
   overflow: auto;
+  width: 50%;
+  float: left;
+  min-width: 540px;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+}
+#header .search_content {
+  *display: inline;
 }
 #header .search_content ul.views {
   width: 200px;
-  float: right;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+}
+#header .search_content ul.views {
+  *display: inline;
 }
 
-#entry_input {
-  font-size: 20px;
-  border: solid 1px grey;
-  height: 35px;
-  color: black;
-  padding-left: 10px;
-  margin-left: 30px;
-  margin-right: 10px;
-  width: 90%;
-  min-width: 100px;
+input[type=search] {
+  width: 250px;
+  color: grey;
+  size: 16px;
+  font-size: 26px;
+  margin-left: 7%;
   float: left;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+}
+input[type=search] {
+  *display: inline;
 }
 
 .logo {
