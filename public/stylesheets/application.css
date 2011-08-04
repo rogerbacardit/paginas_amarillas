@@ -295,23 +295,22 @@
   overflow: none;
 }
 
-.banner_img {
+.banner_top .banner_big {
   margin: 30px;
   margin-bottom: 0px;
   height: 330px;
   width: 280px;
-  background: green;
   position: relative;
+  border: black 1px solid;
 }
-
-.banner_note {
+.banner_top .banner_note {
   height: 75px;
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
   bottom: 0px;
   position: absolute;
 }
-.banner_note h3 {
+.banner_top .banner_note h3 {
   padding-top: 10px;
   margin-left: 10px;
   margin-bottom: 0px;
@@ -319,13 +318,37 @@
   color: yellow;
   text-shadow: black 1px 1px 3px;
 }
-.banner_note h4 {
+.banner_top .banner_note h4 {
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   font-weight: normal;
   font-size: 12px;
   color: yellow;
+}
+
+.banner_small {
+  margin: 30px;
+  margin-bottom: 0px;
+  height: 150px;
+  width: 280px;
+  position: relative;
+  border: black 1px solid;
+}
+.banner_small .banner_small_note {
+  height: 40px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0px;
+  position: absolute;
+}
+.banner_small .banner_small_note h3 {
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: black 1px 1px 3px;
 }
 
 html, body, div, span, applet, object, iframe,
