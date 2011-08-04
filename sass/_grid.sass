@@ -1,7 +1,4 @@
 .side_right
-  height: 100px
-  width: 100px
-  height: 100%
   width: 340px
   float: right
   margin: 0px
@@ -10,6 +7,7 @@
   position: relative
   z-index: 5
   overflow: none
+  background: #F2F2F2
 
 
 .banner_top
@@ -20,6 +18,8 @@
     width: 280px
     position: relative
     border: black 1px solid
+    +box-shadow (white 0px 0px 5px)
+
 
   .banner_note
     height: 75px
@@ -50,6 +50,8 @@
   width: 280px
   position: relative
   border: black 1px solid
+  +box-shadow (white 0px 0px 5px)
+
 
   .banner_small_note
     height: 40px
@@ -64,3 +66,13 @@
       font-weight: bold
       color: yellow
       text-shadow: black 1px 1px 3px
+
+.banner_square
+  margin: 30px
+  height: 280px
+  width: 280px
+  position: relative
+  border: black 1px solid
+  +box-shadow (white 0px 0px 5px)
+
+

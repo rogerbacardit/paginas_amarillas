@@ -282,9 +282,6 @@
 }
 
 .side_right {
-  height: 100px;
-  width: 100px;
-  height: 100%;
   width: 340px;
   float: right;
   margin: 0px;
@@ -293,6 +290,7 @@
   position: relative;
   z-index: 5;
   overflow: none;
+  background: #f2f2f2;
 }
 
 .banner_top .banner_big {
@@ -302,6 +300,10 @@
   width: 280px;
   position: relative;
   border: black 1px solid;
+  -moz-box-shadow: white 0px 0px 5px;
+  -webkit-box-shadow: white 0px 0px 5px;
+  -o-box-shadow: white 0px 0px 5px;
+  box-shadow: white 0px 0px 5px;
 }
 .banner_top .banner_note {
   height: 75px;
@@ -334,6 +336,10 @@
   width: 280px;
   position: relative;
   border: black 1px solid;
+  -moz-box-shadow: white 0px 0px 5px;
+  -webkit-box-shadow: white 0px 0px 5px;
+  -o-box-shadow: white 0px 0px 5px;
+  box-shadow: white 0px 0px 5px;
 }
 .banner_small .banner_small_note {
   height: 40px;
@@ -349,6 +355,18 @@
   font-weight: bold;
   color: yellow;
   text-shadow: black 1px 1px 3px;
+}
+
+.banner_square {
+  margin: 30px;
+  height: 280px;
+  width: 280px;
+  position: relative;
+  border: black 1px solid;
+  -moz-box-shadow: white 0px 0px 5px;
+  -webkit-box-shadow: white 0px 0px 5px;
+  -o-box-shadow: white 0px 0px 5px;
+  box-shadow: white 0px 0px 5px;
 }
 
 html, body, div, span, applet, object, iframe,
