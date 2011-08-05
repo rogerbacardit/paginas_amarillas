@@ -281,6 +281,29 @@
   box-shadow: inset 0px 0px 5px white;
 }
 
+.results_container {
+  height: 100%;
+  background: #cccccc;
+  float: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  right: 0;
+  right: 341px;
+  overflow: none;
+}
+
+.results_box {
+  height: 100px;
+  min-width: 200px;
+  background: green;
+  float: left;
+  margin: 15px;
+  border: black 1px solid;
+}
+
 .side_right {
   width: 340px;
   float: right;
