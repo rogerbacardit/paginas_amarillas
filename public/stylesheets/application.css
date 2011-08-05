@@ -286,7 +286,7 @@
   margin-right: 0px;
   position: absolute;
   left: 0;
-  margin-left: 30px;
+  margin-left: 40px;
   margin-top: 30px;
   z-index: 0;
   right: 341px;
@@ -295,7 +295,7 @@
 
 .results_box {
   height: 100px;
-  width: 200px;
+  width: 275px;
   background: #ebebee;
   right: 0px;
   left: 0px;
@@ -309,16 +309,24 @@
   box-shadow: inset 0px 0px 10px white;
 }
 
+.avatar_box_results {
+  height: 100px;
+  width: 100px;
+  background: red;
+  -moz-box-shadow: inset 0px 0px 10px black;
+  -webkit-box-shadow: inset 0px 0px 10px black;
+  -o-box-shadow: inset 0px 0px 10px black;
+  box-shadow: inset 0px 0px 10px black;
+}
+
 .side_right {
-  width: 340px;
   float: right;
   margin: 0px;
   padding: 0px;
-  border-left: solid #bfbfbd 1px;
   position: relative;
   z-index: 5;
   overflow: none;
-  background: #f2f2f2;
+  bottom: 0px;
 }
 
 .banner_top .banner_big {
