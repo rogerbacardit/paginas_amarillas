@@ -308,6 +308,9 @@
   -o-box-shadow: inset 0px 0px 10px white;
   box-shadow: inset 0px 0px 10px white;
 }
+.results_box span {
+  display: inline-block;
+}
 
 .avatar_box_results {
   height: 100px;
@@ -781,10 +784,12 @@ body ul, body ul li {
   display: inline;
 }
 body h1 {
-  font-size: 26px;
+  font-size: 35px;
   font-weight: bold;
   margin-left: 0px;
   float: left;
+  color: #404040;
+  text-shadow: #cccccc 0px -1px 0px;
   display: -moz-inline-box;
   -moz-box-orient: vertical;
   display: inline-block;
