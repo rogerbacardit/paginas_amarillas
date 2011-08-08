@@ -10,8 +10,8 @@
   overflow-y: none
 
 .results_box
-  height: 100px
-  width: 275px
+  height: 300px
+  width: 280px
   background: #EBEBEE
   right: 0px
   left: 0px
@@ -19,13 +19,26 @@
   margin-left: 10px
   margin-bottom: 10px
   border: #CCCCCC solid 1px
-  +single-box-shadow(white, 0px, 0px, 10px, $inset:true)
-  span
-    display: inline-block
+  +box-shadow(rgba(#636769, .3) 0 0 10px, rgba(white, .2) 0 0 3px 1px inset)
+  +border-radius(5px)
+  span.company
+    h3
+      display: inline-block
+      font-weight: bold
+      margin-left: 20px
+      margin-bottom: 5px
+  span.location
+    h4
+      margin-left: 20px
+      color: grey
+
+
 
 .avatar_box_results
-  height: 100px
-  width: 100px
+  height: 177px
+  width: 240px
   background: red
-  +single-box-shadow(black, 0px, 0px, 10px, $inset:true)
+  margin: 20px
+  border: white solid 1px
+  +box-shadow(rgba(black, .4) 0 0 10px 1px inset)
 

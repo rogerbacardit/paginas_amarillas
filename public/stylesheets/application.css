@@ -294,8 +294,8 @@
 }
 
 .results_box {
-  height: 100px;
-  width: 275px;
+  height: 300px;
+  width: 280px;
   background: #ebebee;
   right: 0px;
   left: 0px;
@@ -303,23 +303,38 @@
   margin-left: 10px;
   margin-bottom: 10px;
   border: #cccccc solid 1px;
-  -moz-box-shadow: inset 0px 0px 10px white;
-  -webkit-box-shadow: inset 0px 0px 10px white;
-  -o-box-shadow: inset 0px 0px 10px white;
-  box-shadow: inset 0px 0px 10px white;
+  -moz-box-shadow: rgba(99, 103, 105, 0.3) 0 0 10px, rgba(255, 255, 255, 0.2) 0 0 3px 1px inset;
+  -webkit-box-shadow: rgba(99, 103, 105, 0.3) 0 0 10px, rgba(255, 255, 255, 0.2) 0 0 3px 1px inset;
+  -o-box-shadow: rgba(99, 103, 105, 0.3) 0 0 10px, rgba(255, 255, 255, 0.2) 0 0 3px 1px inset;
+  box-shadow: rgba(99, 103, 105, 0.3) 0 0 10px, rgba(255, 255, 255, 0.2) 0 0 3px 1px inset;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
 }
-.results_box span {
+.results_box span.company h3 {
   display: inline-block;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.results_box span.location h4 {
+  margin-left: 20px;
+  color: grey;
 }
 
 .avatar_box_results {
-  height: 100px;
-  width: 100px;
+  height: 177px;
+  width: 240px;
   background: red;
-  -moz-box-shadow: inset 0px 0px 10px black;
-  -webkit-box-shadow: inset 0px 0px 10px black;
-  -o-box-shadow: inset 0px 0px 10px black;
-  box-shadow: inset 0px 0px 10px black;
+  margin: 20px;
+  border: white solid 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px 1px inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px 1px inset;
+  -o-box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px 1px inset;
 }
 
 .side_right {
