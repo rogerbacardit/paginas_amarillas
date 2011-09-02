@@ -224,9 +224,19 @@
   padding-bottom: 20px;
   border-bottom: 1px solid #cccccc;
 }
+.results_odd h3, .results_even h3, .active h3 {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #4d4d4d;
+}
+.results_odd span, .results_even span, .active span {
+  font-size: 14px;
+  font-weight: normal;
+}
 .results_odd .logo_result, .results_even .logo_result, .active .logo_result {
-  width: 100px;
-  height: 100px;
+  width: 147px;
+  height: 107px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -237,11 +247,6 @@
   -webkit-box-shadow: inset 0px 0px 10px #980000;
   -o-box-shadow: inset 0px 0px 10px #980000;
   box-shadow: inset 0px 0px 10px #980000;
-}
-.results_odd h3, .results_even h3, .active h3 {
-  margin-left: 20px;
-  font-weight: bold;
-  color: #4d4d4d;
 }
 .results_odd .business-info, .results_even .business-info, .active .business-info {
   margin-left: 20px;
@@ -319,7 +324,8 @@
 .results_box span.location {
   margin-left: 20px;
   color: grey;
-  display: block;
+  font-size: 12px;
+  font-weight: normal;
 }
 .results_box span.medals {
   margin-left: 10px;
@@ -373,10 +379,8 @@
 .banner_top .banner_note h3 {
   padding-top: 10px;
   margin-left: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-weight: bold;
-  color: yellow;
-  text-shadow: black 1px 1px 3px;
 }
 .banner_top .banner_note h4 {
   margin-left: 10px;
@@ -425,6 +429,12 @@
   -webkit-box-shadow: white 0px 0px 5px;
   -o-box-shadow: white 0px 0px 5px;
   box-shadow: white 0px 0px 5px;
+}
+
+span.location {
+  font-weight: normal;
+  font-size: 12px;
+  color: grey;
 }
 
 html, body, div, span, applet, object, iframe,
