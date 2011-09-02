@@ -3,6 +3,9 @@ html
     title Example title
     meta charset='utf-8'
     link rel="stylesheet" href="/stylesheets/application.css"
+    script src="/path/to/jquery.masonry.min.js"
+    script type="text/javascript" src="../javascripts/jquery_162.js"
+
   body
   #empresaula_header
     == render partial: 'header_empresaula'
@@ -10,3 +13,17 @@ html
     == render partial: 'header'
   #container
     == render partial: 'grids/grid'
+
+javascript:
+  var $container = $('#container');
+
+  $(window).resize(function(){
+    $container.masonry({
+        itemSelector: '.box',
+        isResizable: false,
+        // set columnWidth a fraction of the container width
+        columnWidth: $container.width() / 5
+    });
+  // trigger resize to set up masonry on start-up
+  }).resize();
+
